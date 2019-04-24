@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!--fontawesome css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+   <!---favicon logo -->
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
+
+    <!--quicksand font-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+ 
+<!--header section start-->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navigation">
+                    <!-- Fixed navbar -->
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                      <div class="container">
+                        <div class="header-top">
+                            <div class="col-sm-4">
+                                <div class="call-us">
+                                    <img src="assets/images/phone.png" class="img-responsive">
+                                    <span>+234-706-406-5182</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="logo">
+                                    <h2><a href="index.html">LA MON YOGHURTS</a></h2>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="social-icon">
+                                    <ul>
+                                        <li><a><i class="fa fa-facebook"></i></a></li>
+                                        <li><a><i class="fa fa-twitter"></i></a></li>
+                                        <li><a><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-bottom">
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                              <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="menu.html">Recipes</a></li>
+                                <li><a href="contact.html">Find/Contact us</a></li>
+                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                              </ul>
+                            </div><!--/.nav-collapse -->
+                        </div>
+                      </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+ <!--header section end-->
+
+<!--header banner section start-->
+<section class="menu-banner text-center">
+    <div class="inner-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header-content">
+                    <h1>Our Recipes</h1>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+<!--header banner section end-->
+
+
+<!--menu page section start-->
+<section class="our-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-heading">
+                    <span>The</span>
+                    <h2>Recipes</h2>
+                    <img src="assets/images/leaf-icon.png" class="img-responsive">
+                </div>
+                <p class="text-center">We try out, explore and bring to life some of the most amazing recipes straight from La Mon's kitchen.</p>
+                <div id="main" class="main">
+                    <div class="primary-content">
+                        <div class="big-demo go-wide" data-js-module="filtering-demo">
+                            <!------------------------------------filters--------------------------------------------------------------->
+                            <div class="filter-button-group button-group js-radio-button-group container">
+                                <div class="filter-inner">
+                                    <button class="btn btn-sm btn-default button is-checked" data-filter=".breakfast">Breakfast</button>
+                                    <button class="btn btn-sm btn-default button" data-filter=".lunch">Lunch</button>
+                                    <button class="btn btn-sm btn-default button" data-filter=".dinner">Dinner</button>
+                                    <button class="btn btn-sm btn-default button" data-filter=".drinks">Drinks</button>
+                                    <button class="btn btn-sm btn-default button" data-filter=".soups">Soups</button>
+                                    <button class="btn btn-sm btn-default button" data-filter=".desserts">Desserts</button>
+                                </div>
+                            </div>
+                            <!------------------------------------filters--------------------------------------------------------------->
+                            <ul class="clearfix grid">
+                                <li class="breakfast element-item" data-category="breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product1.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Sapphire Martini</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>$20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="lunch breakfast element-item" data-category="lunch breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product1.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Sapphire Martini</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dinner breakfast element-item" data-category="dinner breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                         <div class="menu-img">
+                                            <img src="assets/images/product2.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Yogurt</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="drinks breakfast element-item" data-category="drinks breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product2.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Yogurt</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="soups breakfast element-item" data-category="soups breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                         <div class="menu-img">
+                                            <img src="assets/images/product3.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Porridge Oats</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="desserts  breakfast element-item" data-category="desserts breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product3.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Porridge Oats</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="desserts breakfast element-item" data-category="desserts breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product4.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Porridge Oats</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="desserts breakfast element-item" data-category="desserts breakfast">
+                                    <a href="javascript:void(0)" rel="prettyPhoto[gallery1]">
+                                        <div class="menu-img">
+                                            <img src="assets/images/product4.jpg">
+                                        </div>
+                                        <div class="menu-content">
+                                            <h5>Porridge Oats</h5>
+                                            <p>Barr hill gin, domaine de canton, lemon juice, sprite</p>
+                                        </div>
+                                        <div class="AddCart">
+                                            <span>₦20.00</span>
+                                            <button class="btn btn-sm btn-primary">Add</button>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--menu page section end-->
+
+
+<!--footer section start-->
+<footer class="footer-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="contact-info">
+                    <h5>Contact Us</h5>
+                    <p>If you have any questions or you just want to talk to someone, you can call, visit or mail us</p>
+                    <div class="contact-inner">
+                        <p><strong>Address</strong> : <span>Lagos</span></p>
+                        <p><strong>Phone</strong> : <span>+234-706-406-5182</span></p>
+                        <p><strong>Email</strong> : <span>info@lamon.com</span></p>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="opening-hours">
+                    <h5>Opening Hours</h5>
+                    <ul>
+                        <li><h6>Monday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Tuesday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Wednesday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Thursday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Friday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Saturday</h6><span>9:00-22:00</span></li>
+                        <li><h6>Sunday</h6><span>9:00-22:00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subscribe">
+                    <h5>Write Us</h5>
+                    <form>
+                        <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-sm btn-primary">Send</button>
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p>Copyright Hawayu 2018. All Rights Reserved. Designed by <span class="yellow">Gjospace</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer section end-->
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/jscript/bootstrap.min.js"></script>
+<script src="assets/jscript/smoothScroll.js"></script>
+<script src="assets/jscript/isotope.js"></script>
+<script>
+    $(window).scroll(function(){
+        if ($(window).scrollTop() >= 10) {
+            $('.navbar.navbar-default.navbar-fixed-top').addClass('fill-bg');
+        }
+        else {
+            $('.navbar.navbar-default.navbar-fixed-top').removeClass('fill-bg');
+        }
+});
+</script>
+ 
+<script>
+    var prev = 0;
+    var $window = $(window);
+    var nav = $('#navbar');
+
+    $window.on('scroll', function(){
+      var scrollTop = $window.scrollTop();
+      nav.toggleClass('hidden', scrollTop > prev);
+      $('#navbar').removeClass('in');
+      prev = scrollTop;
+    });
+</script>
+    
+<script>
+    $('.nav a.menu').smoothScroll();
+</script> 
+</body>
+</html>
